@@ -36,4 +36,7 @@ git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
 # ------------------------------- Other ends -------------------------------
+git clone passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main
+git clone passwall https://github.com/xiaorouji/openwrt-passwall.git;main
+git clone lucky https://github.com/gdy666/luci-app-lucky.git
 
