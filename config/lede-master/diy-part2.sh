@@ -29,8 +29,8 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 # ------------------------------- Other started -------------------------------
 #
 # Add luci-app-amlogic
-rm -rf package/luci-app-amlogic
-git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
+#rm -rf package/luci-app-amlogic
+#git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git;main package/passwall-packages
 git clone https://github.com/xiaorouji/openwrt-passwall.git;main package/luci-app-passwall
 git clone https://github.com/gdy666/luci-app-lucky.git package /luci-app-lucky
